@@ -95,81 +95,115 @@
 
         <!-- Properties Section -->
         <section id="properties" class="py-16 bg-gray-50">
-            <h3 class="text-5xl font-bold text-teal-600 text-center">Properties</h3>
-            <p class="text-lg text-gray-700 text-center italic mt-3">Our best properties for you and your family</p>
+            <h3 class="text-5xl font-bold text-teal-800 text-center mb-8">Our Properties</h3>
+            <p class="text-lg text-gray-700 text-center italic mt-3 mb-10">Explore the best properties for you and your
+                family</p>
 
-            <div class="flex items-center gap-15 mx-12 my-12">
-                <!-- Cards -->
-                <div class="bg-blue-100 border border-gray-400 rounded-lg p-5 space-y-2">
-                    <img class="w-full h-70 rounded-lg shadow-md border border-gray-300"
-                        src="https://images.timesproperty.com/blog/3480/unnamed_67.jpg" alt="">
-                    <h4 class="text-2xl font-bold">House Rental</h4>
-                    <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi expedita
-                        consequuntur, non suscipit corrupti labore eum maiores quasi qui. Quas provident ipsum maxime
-                        quibusdam doloremque blanditiis repudiandae a esse nihil.</p>
-                    <p>Room: 10</p>
-                    <p>Parking: Yes</p>
-                    <p>Swimming pool: No</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 px-8">
+                <!-- Property Card 1 -->
+                <div
+                    class="bg-white border border-gray-300 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <img class="w-full h-64 object-cover"
+                        src="https://images.timesproperty.com/blog/3480/unnamed_67.jpg" alt="Luxury Villa">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold text-teal-600">Luxury Villa in Downtown</h4>
+                        <p class="text-gray-600 mt-3">A spacious luxury villa located in the heart of the city. Perfect
+                            for families looking for comfort and convenience with modern amenities.</p>
+                        <ul class="mt-4 text-gray-700">
+                            <li>Rooms: 5</li>
+                            <li>Parking: Yes</li>
+                            <li>Swimming Pool: Yes</li>
+                            <li>Price: $750,000</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="bg-lime-50 border border-gray-400 rounded-lg p-5 space-y-2">
-                    <img class="w-full h-70 rounded-lg shadow-md border border-gray-300"
-                        src="https://images.timesproperty.com/blog/3480/unnamed_67.jpg" alt="">
-                    <h4 class="text-2xl font-bold">House Rental</h4>
-                    <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi expedita
-                        consequuntur, non suscipit corrupti labore eum maiores quasi qui. Quas provident ipsum maxime
-                        quibusdam doloremque blanditiis repudiandae a esse nihil.</p>
-                    <p>Room: 10</p>
-                    <p>Parking: Yes</p>
-                    <p>Swimming pool: No</p>
+
+                <!-- Property Card 2 -->
+                <div
+                    class="bg-white border border-gray-300 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <img class="w-full h-64 object-cover"
+                        src="https://images.timesproperty.com/blog/3480/unnamed_67.jpg" alt="Modern Apartment">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold text-teal-600">Modern Apartment with a View</h4>
+                        <p class="text-gray-600 mt-3">This elegant apartment offers a stunning city view. Ideal for
+                            professionals who seek a stylish and quiet living space.</p>
+                        <ul class="mt-4 text-gray-700">
+                            <li>Rooms: 3</li>
+                            <li>Parking: Yes</li>
+                            <li>Swimming Pool: No</li>
+                            <li>Price: $550,000</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="bg-teal-50 border border-gray-400 rounded-lg p-5 space-y-2">
-                    <img class="w-full h-70 rounded-lg shadow-md border border-gray-300"
-                        src="https://images.timesproperty.com/blog/3480/unnamed_67.jpg" alt="">
-                    <h4 class="text-2xl font-bold">House Rental</h4>
-                    <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi expedita
-                        consequuntur, non suscipit corrupti labore eum maiores quasi qui. Quas provident ipsum maxime
-                        quibusdam doloremque blanditiis repudiandae a esse nihil.</p>
-                    <p>Room: 10</p>
-                    <p>Parking: Yes</p>
-                    <p>Swimming pool: No</p>
+
+                <!-- Property Card 3 -->
+                <div
+                    class="bg-white border border-gray-300 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <img class="w-full h-64 object-cover"
+                        src="https://images.timesproperty.com/blog/3480/unnamed_67.jpg" alt="Family Home">
+                    <div class="p-6">
+                        <h4 class="text-2xl font-semibold text-teal-600">Family Home in Suburbs</h4>
+                        <p class="text-gray-600 mt-3">A beautiful family home located in a peaceful suburban area. A
+                            great place for those looking for a quiet environment to raise children.</p>
+                        <ul class="mt-4 text-gray-700">
+                            <li>Rooms: 4</li>
+                            <li>Parking: Yes</li>
+                            <li>Swimming Pool: No</li>
+                            <li>Price: $400,000</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
         <section id="contact" class="py-16 bg-gray-200">
-            <h3 class="text-5xl font-bold text-teal-600 text-center">Contact</h3>
-            <form class="space-y-2 flex flex-col items-center justify-center">
-                <div class="flex flex-col">
-                    <label class="text-xl font-bold" for="name">Name:</label>
-                    <input 
-                    class="border border-blue-500 px-2 py-2 rounded-lg w-70 bg-gray-100"
-                     type="text"
-                     placeholder="Type your name here...">
-                </div>
-                <div class="flex flex-col">
-                    <label class="text-xl font-bold" for="name">Email:</label>
-                    <input 
-                    class="border border-blue-500 px-2 py-2 rounded-lg w-70 bg-gray-100" 
-                    type="text"
-                    placeholder="example@mail.com">
-                </div>
-                <div class="flex flex-col">
-                    <label class="text-xl font-bold" for="name">Phone No:</label>
-                    <input 
-                    class="border border-blue-500 px-2 py-2 rounded-lg w-70 bg-gray-100" 
-                    type="text"
-                    placeholder="+8801xxxxxxxx">
-                </div>
-                <div class="flex flex-col">
-                    <label class="text-xl font-bold" for="name">Address:</label>
-                    <input 
-                    class="border border-blue-500 px-2 py-2 rounded-lg w-70 bg-gray-100" 
-                    type="text"
-                    placeholder="Type your address here...">
+            <h3 class="text-5xl font-bold text-teal-800 text-center mb-8">Contact</h3>
+            <form
+                class="space-y-6 flex flex-col items-center justify-center max-w-4xl mx-auto bg-gray-100 p-8 rounded-xl shadow-lg">
+                <div class="flex flex-col w-full md:w-3/4 lg:w-2/3 space-y-4">
+                    <!-- Name Field -->
+                    <div class="flex flex-col">
+                        <label class="text-xl font-semibold text-gray-700" for="name">Name:</label>
+                        <input id="name"
+                            class="border border-blue-500 px-4 py-2 rounded-lg w-full bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            type="text" placeholder="Type your name here..." required>
+                    </div>
+
+                    <!-- Email Field -->
+                    <div class="flex flex-col">
+                        <label class="text-xl font-semibold text-gray-700" for="email">Email:</label>
+                        <input id="email"
+                            class="border border-blue-500 px-4 py-2 rounded-lg w-full bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            type="email" placeholder="example@mail.com" required>
+                    </div>
+
+                    <!-- Phone Number Field -->
+                    <div class="flex flex-col">
+                        <label class="text-xl font-semibold text-gray-700" for="phone">Phone No:</label>
+                        <input id="phone"
+                            class="border border-blue-500 px-4 py-2 rounded-lg w-full bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            type="tel" placeholder="+8801xxxxxxxx" required>
+                    </div>
+
+                    <!-- Address Field -->
+                    <div class="flex flex-col">
+                        <label class="text-xl font-semibold text-gray-700" for="address">Address:</label>
+                        <input id="address"
+                            class="border border-blue-500 px-4 py-2 rounded-lg w-full bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            type="text" placeholder="Type your address here..." required>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit"
+                        class="w-full py-3 bg-teal-600 text-white rounded-lg font-bold text-xl hover:bg-teal-700 transition duration-300 focus:outline-none focus:ring-2 focus:ring-teal-500">
+                        Submit
+                    </button>
                 </div>
             </form>
+            <p class="text-center text-gray-700 mt-4">We'll get back to you as soon as possible!</p>
         </section>
+
     </main>
 
     <footer>
